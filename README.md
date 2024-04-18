@@ -1,3 +1,3 @@
 # Courtney's Portfolio.
 
-Take a look for yourself courtrae.me
+Take a look for yourself https://courtrae.me/
