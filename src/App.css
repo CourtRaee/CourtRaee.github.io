@@ -1,14 +1,8 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
   text-align: center;
-}
-
-* {
+  display: flex;
   background-color: #424242;
-}
-
-h1 {
-  color: white;
+  font-family: Crimson Pro;
 }

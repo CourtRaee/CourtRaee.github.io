@@ -9,7 +9,9 @@ import Footer from "./components/footer/footer";
 function App() {
   return (
     <>
-      <Navbar />
+      <section className="navbar">
+        <Navbar />
+      </section>
 
       <section className="hero">
         <Hero />
@@ -27,7 +29,9 @@ function App() {
         <Connect />
       </section>
 
-      <Footer />
+      <section className="footer">
+        <Footer />
+      </section>
     </>
   );
 }
