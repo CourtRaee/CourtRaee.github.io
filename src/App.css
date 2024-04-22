@@ -4,3 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+
+* {
+  background-color: #424242;
+}
+
+h1 {
+  color: white;
+}
