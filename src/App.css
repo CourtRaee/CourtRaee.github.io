@@ -9,6 +9,10 @@
   font-family: Crimson Pro;
 }
 
+.body-container {
+  padding: 10px 44px;
+}
+
 .hero {
   width: 100%;
   height: 250px;

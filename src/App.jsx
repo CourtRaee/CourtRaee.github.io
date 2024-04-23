@@ -8,7 +8,7 @@ import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <>
+    <div className="body-container">
       <section className="navbar">
         <Navbar />
       </section>
@@ -32,7 +32,7 @@ function App() {
       <section className="footer">
         <Footer />
       </section>
-    </>
+    </div>
   );
 }
 

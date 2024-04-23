@@ -20,7 +20,13 @@
 }
 
 .welcome-container {
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.intro-one {
+    display: flex;
+    flex-direction: row;
 }
