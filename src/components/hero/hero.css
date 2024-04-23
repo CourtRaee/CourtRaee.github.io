@@ -1,7 +1,11 @@
 .hero-title {
-    font-size: 160px;
-    font-family: Koulen;
-    letter-spacing: 40px;
-    color: white;
-    z-index: 1;
+  font-size: 160px;
+  font-family: Koulen;
+  letter-spacing: 40px;
+  color: white;
+  background-color: transparent;
+  z-index: 1;
+  text-decoration: underline;
+  text-decoration-color: #8e00fd;
+  text-decoration-thickness: 30px;
 }

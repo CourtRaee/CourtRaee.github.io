@@ -14,5 +14,7 @@
   height: 250px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  justify-content: flex-end;
 }
