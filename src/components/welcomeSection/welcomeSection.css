@@ -1,0 +1,17 @@
+.welcome-title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 60px;
+  color: white;
+}
+
+p.welcome-text {
+  display: flex;
+  align-items: flex-start;
+  font-size: larger;
+  font-weight: 100;
+  /* margin-right: 50px; */
+  color: white;
+}
+
+/* Once set up, have a mess with the font weight for the text*/

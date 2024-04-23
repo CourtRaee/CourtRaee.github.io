@@ -1,6 +1,8 @@
 import "react";
 import "./intro.css";
 import IPhoneMockup from "../iPhoneMockup/iPhoneMockup";
+import WelcomeSection from "../welcomeSection/welcomeSection";
+import Bitmoji from "../bitmoji/bitmoji"
 
 function Intro() {
   return (
@@ -11,7 +13,11 @@ function Intro() {
 
       <div className="intro-container">
         <div className="welcome-container">
-          <p>testing</p>
+          <WelcomeSection />
+        </div>
+
+        <div className="bitmoji-container">
+          <Bitmoji />
         </div>
 
         <div className="tech-stack-container">
