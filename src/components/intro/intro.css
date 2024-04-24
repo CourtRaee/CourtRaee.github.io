@@ -5,42 +5,41 @@
 }
 
 .intro-container {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* padding: 75px 0; */
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .iphone-container {
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome-container {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .intro-one {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 45px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 45px;
 }
 
 .tech-stack-title {
-    text-align: end;
-    padding-right: 25px;
-    color: white;
-    font-size: 40px;
+  text-align: end;
+  padding-right: 25px;
+  color: white;
+  font-size: 40px;
 }
 
 .cards-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
