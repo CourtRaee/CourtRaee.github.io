@@ -2,6 +2,7 @@ import "react";
 import "./projects.css";
 import ProjectPreview from "../projectPreview/projectPreview";
 import ProjectCTARight from "../projectCTARight/projectCTARight";
+import ProjectCTALeft from "../projectCTALeft/projectCTALeft";
 
 function Projects() {
   return (
@@ -12,6 +13,13 @@ function Projects() {
         <ProjectCTARight 
           text={"f1 driver results."}
         />
+      </div>
+
+      <div className="project-two-container">
+        <ProjectCTALeft 
+          text={"dialled wireframes."}
+        />
+        <ProjectPreview />
       </div>
     </div>
   );

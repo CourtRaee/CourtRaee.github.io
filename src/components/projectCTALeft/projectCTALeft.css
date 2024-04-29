@@ -1,0 +1,14 @@
+.project-title-left {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.project-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #8E00FD;
+    color: white;
+    border: none;
+}
