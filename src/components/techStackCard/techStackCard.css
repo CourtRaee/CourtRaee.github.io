@@ -1,0 +1,9 @@
+.tech-stack-card-text {
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 3px;
+}
+
+.tech-stack-card {
+    padding: 0 20px;
+}
