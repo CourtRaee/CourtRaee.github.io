@@ -1,0 +1,14 @@
+.project-one-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-text {
+    font-size: 60px;
+    display: flex;
+    /* margin-left: 100px; */
+    padding-left: 75px;
+    padding-bottom: 50px;
+    color: white;
+}

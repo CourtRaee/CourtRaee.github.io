@@ -10,7 +10,7 @@
 }
 
 .body-container {
-  padding: 10px 44px;
+  padding: 10px 100px;
 }
 
 .hero {
@@ -21,4 +21,8 @@
   /* justify-content: center; */
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.projects {
+  padding-top: 100px;
 }
