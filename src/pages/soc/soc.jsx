@@ -1,9 +1,8 @@
-import "./f1-driver-results.css";
 import Navbar from "../../components/navbar/navbar";
 import BodyContainer from "../../components/bodyContainer/body-container";
 import Footer from "../../components/footer/footer"
 
-function F1DriverResults() {
+function Soc() {
   return (
     <BodyContainer>
       <Navbar />
@@ -12,4 +11,4 @@ function F1DriverResults() {
     </BodyContainer>
   );
 }
-export default F1DriverResults;
+export default Soc;

@@ -17,17 +17,29 @@ function Projects() {
       </div>
 
       <div className="project-two-container">
-        <ProjectCTA text={"serveasy wireframes."} />
+        <ProjectCTA
+          text={"serveasy wireframes."}
+          buttonText="⬅️ show me"
+          link="/serveasy"
+        />
         <ProjectPreview />
       </div>
 
       <div className="project-three-container">
         <ProjectPreview />
-        <ProjectCTA text={"dialled wireframes."} />
+        <ProjectCTA
+          text={"dialled wireframes."}
+          buttonText="i'm curious ➡️"
+          link="/dialled"
+        />
       </div>
 
       <div className="project-four-container">
-        <ProjectCTA text={"soc progression."} />
+        <ProjectCTA
+          text={"soc progression."}
+          buttonText="⬅️ let's see"
+          link="/soc"
+        />
         <ProjectPreview />
       </div>
     </div>
