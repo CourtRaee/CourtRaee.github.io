@@ -1,0 +1,18 @@
+.project-title {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.project-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #8e00fd;
+  color: white;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,8 +1,7 @@
 import "react";
 import "./projects.css";
 import ProjectPreview from "../projectPreview/projectPreview";
-import ProjectCTARight from "../projectCTARight/projectCTARight";
-import ProjectCTALeft from "../projectCTALeft/projectCTALeft";
+import ProjectCTA from "../projectCTA/projectCTA";
 
 function Projects() {
   return (
@@ -10,29 +9,25 @@ function Projects() {
       <h1 className="project-text">my projects.</h1>
       <div className="project-one-container">
         <ProjectPreview />
-        <ProjectCTARight 
+        <ProjectCTA
           text={"f1 driver results."}
+          buttonText="take me there ➡️"
+          link="/f1"
         />
       </div>
 
       <div className="project-two-container">
-        <ProjectCTALeft 
-          text={"serveasy wireframes."}
-        />
+        <ProjectCTA text={"serveasy wireframes."} />
         <ProjectPreview />
       </div>
 
       <div className="project-three-container">
         <ProjectPreview />
-        <ProjectCTARight 
-          text={"dialled wireframes."}
-        />
+        <ProjectCTA text={"dialled wireframes."} />
       </div>
 
       <div className="project-four-container">
-        <ProjectCTALeft 
-          text={"soc progression."}
-        />
+        <ProjectCTA text={"soc progression."} />
         <ProjectPreview />
       </div>
     </div>
