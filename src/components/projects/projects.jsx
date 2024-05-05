@@ -5,6 +5,8 @@ import ProjectCTA from "../projectCTA/projectCTA";
 
 import f1Preview from "../../assets/f1-preview.png";
 import serveasyWireframes from "../../assets/serveasy-wireframes.png";
+import dialledCard from "../../assets/dialled-card.png";
+import socCard from "../../assets/soc-card.png"
 
 function Projects() {
   return (
@@ -29,7 +31,7 @@ function Projects() {
       </div>
 
       <div className="project-three-container">
-        <ProjectPreview />
+        <ProjectPreview image={dialledCard} />
         <ProjectCTA
           text={"dialled wireframes."}
           buttonText="i'm curious ➡️"
@@ -43,7 +45,7 @@ function Projects() {
           buttonText="⬅️ let's see"
           link="/soc"
         />
-        <ProjectPreview />
+        <ProjectPreview image={socCard} />
       </div>
     </div>
   );
