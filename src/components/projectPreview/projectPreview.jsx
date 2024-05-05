@@ -1,10 +1,9 @@
 import "react";
 import "./projectPreview.css";
 
-function ProjectPreview() {
-  return (
-    <div className="preview-placeholder"></div>
-  );
+// eslint-disable-next-line react/prop-types
+function ProjectPreview({ image }) {
+  return <img src={image} className="preview-placeholder"></img>;
 }
 
 export default ProjectPreview;

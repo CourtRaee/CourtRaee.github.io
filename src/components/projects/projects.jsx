@@ -3,12 +3,15 @@ import "./projects.css";
 import ProjectPreview from "../projectPreview/projectPreview";
 import ProjectCTA from "../projectCTA/projectCTA";
 
+import f1Preview from "../../assets/f1-preview.png";
+import serveasyWireframes from "../../assets/serveasy-wireframes.png";
+
 function Projects() {
   return (
     <div className="projects-container">
       <h1 className="project-text">my projects.</h1>
       <div className="project-one-container">
-        <ProjectPreview />
+        <ProjectPreview image={f1Preview} />
         <ProjectCTA
           text={"f1 driver results."}
           buttonText="take me there ➡️"
@@ -22,7 +25,7 @@ function Projects() {
           buttonText="⬅️ show me"
           link="/serveasy"
         />
-        <ProjectPreview />
+        <ProjectPreview image={serveasyWireframes} />
       </div>
 
       <div className="project-three-container">
