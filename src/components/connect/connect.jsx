@@ -1,9 +1,9 @@
 import "react";
 import "./connect.css";
 
-import linkedin from "../../assets/linked-in.png";
-import github from "../../assets/github.png";
-import mail from "../../assets/mail.png";
+import linkedin from "../../../public/assets/linked-in.png";
+import github from "../../../public/assets/github.png";
+import mail from "../../../public/assets/mail.png";
 
 function Connect() {
   return (

@@ -3,10 +3,10 @@ import "./projects.css";
 import ProjectPreview from "../projectPreview/projectPreview";
 import ProjectCTA from "../projectCTA/projectCTA";
 
-import f1Preview from "../../assets/f1-preview.png";
-import serveasyWireframes from "../../assets/serveasy-wireframes.png";
-import dialledCard from "../../assets/dialled-card.png";
-import socCard from "../../assets/soc-card.png"
+import f1Preview from "../../../public/assets/f1-preview.png";
+import serveasyWireframes from "../../../public/assets/serveasy-wireframes.png";
+import dialledCard from "../../../public/assets/dialled-card.png";
+import socCard from "../../../public/assets/soc-card.png";
 
 function Projects() {
   return (
