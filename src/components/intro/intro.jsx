@@ -27,7 +27,7 @@ function Intro() {
           <div className="tech-stack-container">
             <h1 className="tech-stack-title">my tech stack.</h1>
             <div className="cards-container">
-              <TechStackCard image={"/assets/html.png"} text={"html"} />
+              <TechStackCard image={"../assets/html.png"} text={"html"} />
 
               <TechStackCard image={"/assets/css.png"} text={"css"} />
 
