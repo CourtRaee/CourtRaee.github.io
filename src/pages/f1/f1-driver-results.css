@@ -1,0 +1,13 @@
+.text {
+  font-size: 100px;
+  color: #8e00fd;
+}
+
+.text-two {
+  color: white;
+}
+
+.page-structure {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
