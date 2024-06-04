@@ -10,7 +10,7 @@ function Dialled() {
       <div className="dialled-intro">
         <div className="iphone-dialled-container">
           <img
-            src="../../../public/assets/iphone-dialled.png"
+            src="/assets/iphone-dialled.png"
             className="iphone-dialled"
           ></img>
         </div>
@@ -49,51 +49,51 @@ function Dialled() {
         <h1 className="dialled-desc-headers">Mobile Application</h1>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Launch Screen.png"
+          src="/assets/Launch Screen.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Walkthrough 1.png"
+          src="/assets/Walkthrough 1.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Walkthrough 2.png"
+          src="/assets/Walkthrough 2.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Walkthrough 3.png"
+          src="/assets/Walkthrough 3.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Welcome & Get Started.png"
+          src="/assets/Welcome & Get Started.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Register.png"
+          src="/assets/Register.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Bike Register.png"
+          src="/assets/Bike Register.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Login.png"
+          src="/assets/Login.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Dashboard.png"
+          src="/assets/Dashboard.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/My Bikes Dashboard.png"
+          src="/assets/My Bikes Dashboard.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/My Bikes - Bike Info Enter.png"
+          src="/assets/My Bikes - Bike Info Enter.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/My Bikes - Bike Info Filled In.png"
+          src="/assets/My Bikes - Bike Info Filled In.png"
         ></img>
       </div>
 
@@ -101,19 +101,19 @@ function Dialled() {
         <h1 className="dialled-desc-headers">Website</h1>
         <img
           className="dialled-website-images"
-          src="../../../public/assets/Home Page - Logged In - Part 1.png"
+          src="/assets/Home Page - Logged In - Part 1.png"
         ></img>
         <img
           className="dialled-website-images"
-          src="../../../public/assets/Home Page - Logged In - Part 2.png"
+          src="/assets/Home Page - Logged In - Part 2.png"
         ></img>
         <img
           className="dialled-website-images"
-          src="../../../public/assets/Home Page - Logged In - Part 3.png"
+          src="/assets/Home Page - Logged In - Part 3.png"
         ></img>
         <img
           className="dialled-website-images"
-          src="../../../public/assets/Home Page - Logged Out - Part 1.png"
+          src="/assets/Home Page - Logged Out - Part 1.png"
         ></img>
       </div>
 
@@ -121,43 +121,43 @@ function Dialled() {
         <h1 className="dialled-desc-headers">Web App</h1>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Web App - Dashboard.png"
+          src="/assets/Web App - Dashboard.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Web App - Dashboard - Menu - Logged Out.png"
+          src="/assets/Web App - Dashboard - Menu - Logged Out.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Web App - Dashboard - Menu - Logged In.png"
+          src="/assets/Web App - Dashboard - Menu - Logged In.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Web App - Login.png"
+          src="/assets/Web App - Login.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Web App - Register.png"
+          src="/assets/Web App - Register.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Web App - Bike Register.png"
+          src="/assets/Web App - Bike Register.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/My Bikes Dashboard.png"
+          src="/assets/My Bikes Dashboard.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/My Bikes - Bike Info Enter.png"
+          src="/assets/My Bikes - Bike Info Enter.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/My Bikes - Bike Info Filled In.png"
+          src="/assets/My Bikes - Bike Info Filled In.png"
         ></img>
         <img
           className="dialled-mobile-app-images"
-          src="../../../public/assets/Web App - My Profile.png"
+          src="/assets/Web App - My Profile.png"
         ></img>
       </div>
       <section className="footer">
