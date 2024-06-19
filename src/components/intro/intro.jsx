@@ -36,7 +36,7 @@ function Intro() {
                 text={"javascript"}
               />
 
-              <TechStackCard image={"/assets/react.png"} text={"react"} />
+              <TechStackCard image={"/assets/react-home.png"} text={"react"} />
             </div>
           </div>
         </div>
