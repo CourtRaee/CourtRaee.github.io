@@ -27,9 +27,12 @@
 .soc-screenshot-container {
   /* width: 30%; */
   height: 300px;
-  display: flex;
-  justify-content: flex-start;
   padding-right: 50px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .soc-intro-container {
@@ -115,10 +118,10 @@
   padding-top: 35px;
 }
 .logos-container {
-    display: flex;
-    flex-direction: row;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .logos {
