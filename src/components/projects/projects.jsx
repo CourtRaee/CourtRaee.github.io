@@ -23,7 +23,7 @@ function Projects() {
 
       <div className="project-two-container">
         <ProjectCTA
-          text={"soc progression."}
+          text={"soc final project."}
           buttonText="⬅️ let's see"
           link="/soc"
         />

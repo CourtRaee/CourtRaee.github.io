@@ -11,3 +11,64 @@
      padding-top: 50px;
      padding-bottom: 50px;
 }
+
+.soc-intro {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.soc-screenshot-container {
+    /* width: 30%; */
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 50px;
+}
+
+.soc-intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+}
+
+.soc-header {
+    color: white;
+    font-size: 70px;
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 10px;
+}
+
+.soc-header-copy {
+    text-align: start;
+    font-size: 20px;
+    color: white;
+    padding-top: 35px;
+}
+
+.soc-problem-container {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+}
+
+.soc-problem-header {
+    text-align: start;
+    color: white;
+    font-size: 40px;
+    padding-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 5px;
+}
+
+.soc-problem-copy {
+    text-align: start;
+    font-size: 18px;
+    color: white;
+    padding-top: 35px;
+}
