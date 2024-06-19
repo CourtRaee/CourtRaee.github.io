@@ -35,6 +35,32 @@ function Soc() {
           resources.
         </p>
       </div>
+
+      <div className="soc-trello-container">
+        <img src="/assets/trello.png" className="trello-image"></img>
+        <p className="soc-trello-copy">
+          Our stakeholder currently uses Trello, which they expressed is great
+          for details on the card, however, it requires scrolling through each
+          month to find what is happening with each department and isn’t clear
+          to quickly see what communications will be going out.
+        </p>
+      </div>
+
+      <div className="soc-demo-container">
+        <h1 className="soc-demo-header">The Solution</h1>
+        <video
+          width="920"
+          height="540"
+          className="demo-video"
+          playsinline
+          autoPlay
+          muted
+          controls
+          loop
+        >
+          <source src="/assets/demo-video.mov" type="video/mp4"></source>
+        </video>
+      </div>
       <Footer />
     </BodyContainer>
   );

@@ -72,3 +72,41 @@
     color: white;
     padding-top: 35px;
 }
+
+.soc-trello-container {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+}
+
+.trello-image {
+    width: 75%;
+    padding-top: 35px;
+}
+
+.soc-trello-copy {
+    text-align: start;
+    font-size: 18px;
+    color: white;
+    padding-top: 35px;
+}
+
+.soc-demo-container {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+}
+
+.soc-demo-header {
+    text-align: start;
+    color: white;
+    font-size: 40px;
+    padding-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 5px;
+}
+
+.demo-video {
+    padding-top: 20px;
+}
