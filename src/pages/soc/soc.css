@@ -110,3 +110,31 @@
 .demo-video {
     padding-top: 20px;
 }
+
+.ux-container {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+}
+
+.ux-header {
+    text-align: start;
+    color: white;
+    font-size: 40px;
+    padding-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 5px;
+}
+
+.ux-copy {
+    text-align: start;
+    font-size: 18px;
+    color: white;
+    padding-top: 35px;
+}
+
+.wireframes {
+    width: 55%;
+    padding-top: 35px;
+}
