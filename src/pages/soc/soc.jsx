@@ -24,8 +24,13 @@ function Soc() {
       </div>
 
       <div className="soc-problem-container">
-        <h1 className="soc-problem-header">The Problem</h1>
-        <p className="soc-problem-copy">
+        <h1
+          className="
+        header"
+        >
+          The Problem
+        </h1>
+        <p className="copy">
           The Director of Communications for West Midlands Combined Authority
           cannot see at a glance all communications activities scheduled across
           various departments (e.g. Transport, Housing) and campaigns over a 12
@@ -38,7 +43,7 @@ function Soc() {
 
       <div className="soc-trello-container">
         <img src="/assets/trello.png" className="trello-image"></img>
-        <p className="soc-trello-copy">
+        <p className="copy">
           Our stakeholder currently uses Trello, which they expressed is great
           for details on the card, however, it requires scrolling through each
           month to find what is happening with each department and isn’t clear
@@ -47,7 +52,7 @@ function Soc() {
       </div>
 
       <div className="soc-demo-container">
-        <h1 className="soc-demo-header">The Solution</h1>
+        <h1 className="header">The Solution</h1>
         <video
           width="920"
           height="540"
@@ -63,8 +68,8 @@ function Soc() {
       </div>
 
       <div className="ux-container">
-        <h1 className="ux-header">Considering the User Experience</h1>
-        <p className="ux-copy">
+        <h1 className="header">Considering the User Experience</h1>
+        <p className="copy">
           When meeting with our stakeholder, we explored her main pain points
           with her current software and carefully asked in-depth questions that
           would help us better understand what exactly it was that she was
@@ -86,7 +91,7 @@ function Soc() {
           shown in the wireframe.
         </p>
         <img src="/assets/year-wireframe.png" className="wireframes"></img>
-        <p className="ux-copy">
+        <p className="copy">
           Due to the volume of information that would be present, we were
           mindful of the calendar looking too busy but still also getting what
           she needed across clearly.<br></br>
@@ -95,7 +100,7 @@ function Soc() {
           our stakeholders problem.
         </p>
         <img src="/assets/six-month-wireframe.png" className="wireframes"></img>
-        <p className="ux-copy">
+        <p className="copy">
           Our stakeholder also needed to know what type of communications would
           be going out at a glance, therefore we decided to use emojis.<br></br>
           <br></br> We chose emojis over icons as there is generally more
@@ -105,7 +110,7 @@ function Soc() {
           was key for the user’s needs.
         </p>
         <img src="/assets/month-wireframe.png" className="wireframes"></img>
-        <p className="ux-copy">
+        <p className="copy">
           We built a prototype that we shared with our stakeholder so she could
           get the full effect of what the product would look and feel like.
           <br></br>
@@ -118,6 +123,51 @@ function Soc() {
           stakeholders needs.
         </p>
         <img src="/assets/demo.png" className="wireframes"></img>
+      </div>
+
+      <div className="tech-stack-container">
+        <h1 className="header">Our Tech Stack</h1>
+
+        <div className="tech-stack-one">
+          <p className="tech-stack-copy">
+            We chose ReactJS with Vite for its superior performance, offering
+            faster builds and hot module replacement, and for its ease of use,
+            providing a streamlined development experience with modern tooling.
+          </p>
+          <img src="/assets/react.png" className="logos"></img>
+          <img src="/assets/vite.png" className="logos"></img>
+        </div>
+        <div className="tech-stack-two">
+          <p className="tech-stack-copy">
+            Opting for JavaScript over TypeScript was driven by our team's
+            greater familiarity with JavaScript, allowing us to expedite
+            development and meet tight deadlines.
+          </p>
+          <img src="/assets/javascript-logo.png" className="logos-single"></img>
+        </div>
+        <div className="tech-stack-three">
+          <p className="tech-stack-copy">
+            To ensure our code's security, we integrated Snyk, which performs
+            code testing for vulnerabilities and checks for issues within node
+            modules. Additionally, we implemented automated testing using Husky
+            to maintain code quality and streamline our development workflow.
+          </p>
+          <img src="/assets/synk.png" className="logos-single"></img>
+        </div>
+        <div className="tech-stack-four">
+          <p className="tech-stack-copy-end">
+            In our research, we aimed to present our Yearly views and Quarterly
+            views in a timeline format. After evaluating various options, we
+            determined that utilising a pre-built library would be the most
+            effective approach. We considered several libraries, including
+            gantt-schedule-timeline-calendar, React-google-charts, and
+            gantt-task-react. <br></br>
+          <br></br>After careful consideration, research and
+            project-specific needs, we utilised gantt-task-react for task
+            management visualisation and react-big-calendar for robust calendar
+            functionalities.
+          </p>
+        </div>
       </div>
       <Footer />
     </BodyContainer>
