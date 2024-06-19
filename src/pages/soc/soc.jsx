@@ -205,7 +205,50 @@ function Soc() {
         </p>
       </div>
 
-      <div className="lessons-container"></div>
+      <div className="lessons-container">
+        <h1 className="header">Lessons Learnt</h1>
+        <p className="copy">
+          Over the space of the 4 week project, we made the effort to reflect on
+          every decision and to understand what lessons we learnt by completing
+          the project. <br></br>
+          <br></br> Our key takeaways were:
+          <br></br>
+          <li>
+            Clearly define the problem statement early on so we can keep
+            referring back to it when making a decision.
+          </li>
+          <li>
+            Work closely with our stakeholder to design a result that meets
+            their needs.
+          </li>
+          <li>
+            Implement a thumbs-up or thumbs-down voting system for
+            decision-making.
+          </li>
+          <li>
+            Assign tasks to individuals each morning to maintain a smooth
+            workflow.
+          </li>
+          <li>
+            Prioritise and manage time effectively so we don’t waste time.
+          </li>
+          <li>
+            Allocate different responsibilities to team members so we can all
+            work on different parts of the project rather than just our
+            strengths.
+          </li>
+          <li>Deliver a finished project that everyone can be proud of.</li>
+          <li>
+            We worked effectively and efficiently as a team and communicated
+            well.
+          </li>
+          <li>
+            If we were to do this project again, we would have prioritised
+            different objectives earlier in the project, such as making a faster
+            decision on our library choice.
+          </li>
+        </p>
+      </div>
       <Footer />
     </BodyContainer>
   );
