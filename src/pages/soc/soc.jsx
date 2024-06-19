@@ -139,10 +139,7 @@ function Soc() {
             <div className="logos-container">
               <img src="/assets/react.png" className="logos"></img>
               <img src="/assets/vite.png" className="logos"></img>
-              <img
-                src="/assets/javascript-logo.png"
-                className="logos"
-              ></img>
+              <img src="/assets/javascript-logo.png" className="logos"></img>
               <img src="/assets/synk.png" className="logos"></img>
             </div>
             <p className="tech-stack-copy">
@@ -150,17 +147,20 @@ function Soc() {
               faster builds and hot module replacement, and for its ease of use,
               providing a streamlined development experience with modern
               tooling.
-            <br></br><br></br>
+              <br></br>
+              <br></br>
               Opting for JavaScript over TypeScript was driven by our team's
               greater familiarity with JavaScript, allowing us to expedite
               development and meet tight deadlines.
-              <br></br><br></br>
+              <br></br>
+              <br></br>
               To ensure our code's security, we integrated Snyk, which performs
               code testing for vulnerabilities and checks for issues within node
               modules. Additionally, we implemented automated testing using
               Husky to maintain code quality and streamline our development
               workflow.
-              <br></br><br></br>
+              <br></br>
+              <br></br>
               In our research, we aimed to present our Yearly views and
               Quarterly views in a timeline format. After evaluating various
               options, we determined that utilising a pre-built library would be
@@ -273,12 +273,9 @@ function Soc() {
         </div>
 
         <div className="button-container">
-          <button
-            className="product-button"
-            src="https://bc16-final-projects-team-ctrl-alt-elite.vercel.app/"
-          >
-            Take me to the product😍
-          </button>
+          <a href="https://bc16-final-projects-team-ctrl-alt-elite.vercel.app/">
+            <button className="product-button">Take me to the product😍</button>
+          </a>
         </div>
       </div>
       <Footer />
