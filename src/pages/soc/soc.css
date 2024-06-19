@@ -1,3 +1,8 @@
+/* .container {
+    width: 1300px;
+    background-color: #e7e7e7;
+} */
+
 .text {
   font-size: 100px;
   color: #8e00fd;
@@ -57,7 +62,7 @@
 }
 
 .header {
-  text-align: start;
+  text-align: center;
   color: white;
   font-size: 40px;
   padding-top: 35px;
@@ -67,7 +72,7 @@
 }
 
 .copy {
-  text-align: start;
+  text-align: center;
   font-size: 18px;
   color: white;
   padding-top: 35px;
@@ -75,19 +80,23 @@
 
 .soc-trello-container {
   display: flex;
-  justify-items: flex-start;
+  justify-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .trello-image {
   width: 75%;
   padding-top: 35px;
+  display: flex;
+  justify-items: center;
 }
 
 .soc-demo-container {
   display: flex;
-  justify-items: flex-start;
+  justify-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .demo-video {
@@ -96,13 +105,20 @@
 
 .ux-container {
   display: flex;
-  justify-items: flex-start;
+  justify-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .wireframes {
   width: 55%;
   padding-top: 35px;
+}
+.logos-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .logos {
@@ -112,59 +128,51 @@
 
 .tech-stack-one {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-}
-
-.tech-stack-two {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 35px;
 }
 
 .logos-single {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   justify-content: center;
 }
 
 .tech-stack-copy {
   width: 90%;
-  text-align: start;
+  text-align: center;
   font-size: 18px;
   color: white;
+}
+
+.team-container {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.manifesto {
+  width: 55%;
   padding-top: 35px;
 }
 
-.tech-stack-three {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 35px;
-  }
+.next-steps-container {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: column;
+}
 
-  .tech-stack-four {
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    /* padding-top: 35px; */
-  }  
+.button-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-  .tech-stack-copy-end {
-    text-align: start;
-    font-size: 18px;
-    color: white;
-    padding-top: 35px;
-  }
-
-  .team-container {
-    display: flex;
-    justify-items: flex-start;
-    flex-direction: column;
-  }
-
-  .manifesto {
-    width: 55%;
-    padding-top: 35px;
-  }
+.product-button {
+  background-color: #8e00fd;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
