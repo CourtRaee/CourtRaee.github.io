@@ -157,3 +157,14 @@
     color: white;
     padding-top: 35px;
   }
+
+  .team-container {
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+  }
+
+  .manifesto {
+    width: 55%;
+    padding-top: 35px;
+  }

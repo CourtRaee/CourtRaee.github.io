@@ -162,13 +162,50 @@ function Soc() {
             effective approach. We considered several libraries, including
             gantt-schedule-timeline-calendar, React-google-charts, and
             gantt-task-react. <br></br>
-          <br></br>After careful consideration, research and
-            project-specific needs, we utilised gantt-task-react for task
-            management visualisation and react-big-calendar for robust calendar
+            <br></br>After careful consideration, research and project-specific
+            needs, we utilised gantt-task-react for task management
+            visualisation and react-big-calendar for robust calendar
             functionalities.
           </p>
         </div>
       </div>
+
+      <div className="team-container">
+        <h1 className="header">How we worked as a team</h1>
+        <p className="copy">
+          We made it a comfortable safe environment for us all so that we could
+          function in the best way possible as a team.<br></br>
+          <br></br> This allowed us to bring new creative ideas to the table and
+          to really go in-depth with planning and meeting milestones set
+          throughout the 4 weeks.<br></br>
+          <br></br> We were respectful to each other when ideas were explored
+          and challenged the other person as opposed to shutting them down when
+          it wouldn’t necessarily be achievable.<br></br>
+          <br></br> We had clear stand ups in the morning and debriefs at the
+          end of the day so everyone was up to date with where the project was
+          at.<br></br>
+          <br></br> We ensured effective communication via Slack when work was
+          done out of hours.<br></br>
+          <br></br> We set a team manifesto at the start of the project which
+          was vital for us to understand how we will work together.
+        </p>
+        <img src="/assets/manifesto.png" className="manifesto"></img>
+        <p className="copy">
+          We utilised Trello to monitor and complete tasks over using Github
+          projects so we could put ourselves in the stakeholder's shoes and
+          truly immerse ourselves with her struggles.<br></br>
+          <br></br> We used pull requests to create a safety net for us, so we
+          would all be responsible for any mistakes that could have been pushed.
+          <br></br>
+          <br></br> In terms of branching, we created a main branch and a
+          development branch, we mainly worked on the development branch and
+          branched off that individually to do any work. Once we were happy with
+          the code on the development branch, we would then merge onto main, to
+          ensure code safety and prevent any mistakes from being pushed live.
+        </p>
+      </div>
+
+      <div className="lessons-container"></div>
       <Footer />
     </BodyContainer>
   );
