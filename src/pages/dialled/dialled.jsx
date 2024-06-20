@@ -118,7 +118,7 @@ function Dialled() {
       </div>
 
       <div className="dialled-web-app-container">
-        <h1 className="dialled-desc-headers">Web App</h1>
+        <h1 className="dialled-desc-headers">Responsive Website</h1>
         <img
           className="dialled-mobile-app-images"
           src="/assets/Web App - Dashboard.png"

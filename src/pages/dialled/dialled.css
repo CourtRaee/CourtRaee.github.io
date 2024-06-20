@@ -41,14 +41,14 @@
 }
 
 .dialled-desc-copy {
-    text-align: start;
+    text-align: center;
     font-size: 18px;
     color: white;
     padding-top: 35px;
 }
 
 .dialled-desc-headers {
-    text-align: start;
+    text-align: center;
     color: white;
     font-size: 40px;
     padding-top: 35px;
