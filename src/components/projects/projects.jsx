@@ -13,40 +13,40 @@ function Projects() {
     <div className="projects-container">
       <h1 className="project-text">my projects.</h1>
       <div className="project-one-container">
-        <ProjectPreview image={dialledCard} />
+        <ProjectPreview image={socCard} />
         <ProjectCTA
-          text={"dialled wireframes."}
+          text={"soc final project."}
           buttonText="i'm curious ➡️"
-          link="/dialled"
+          link="/soc"
         />
       </div>
 
       <div className="project-two-container">
         <ProjectCTA
-          text={"soc final project."}
+          text={"dialled wireframes."}
           buttonText="⬅️ let's see"
-          link="/soc"
+          link="/dialled"
         />
-        <ProjectPreview image={socCard} />
+        <ProjectPreview image={dialledCard} />
       </div>
 
       <div className="project-three-container">
-        <ProjectPreview image={f1Preview} />
+        <ProjectPreview image={serveasyWireframes} />
         <ProjectCTA
-          text={"f1 driver results."}
+          text={"serveasy wireframes."}
           buttonText="take me there ➡️"
-          link="/f1"
+          link="/serveasy"
         />
       </div>
 
-      <div className="project-four-container">
+      {/* <div className="project-four-container">
         <ProjectCTA
-          text={"serveasy wireframes."}
+          text={"f1 driver results."}
           buttonText="⬅️ show me"
-          link="/serveasy"
+          link="/f1"
         />
         <ProjectPreview image={serveasyWireframes} />
-      </div>
+      </div> */}
     </div>
   );
 }
