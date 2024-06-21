@@ -19,19 +19,17 @@ function Serveasy() {
           <h1 className="serveasy-header">serveasy.</h1>
           <p className="serveasy-header-copy">
             Serveasy is an upcoming service directory to help local service
-            businesses be discovered and enquired in one place.
+            businesses be discovered and enquired in one place.<br></br>
+            <br></br>This start up approached me and asked me to create some
+            wireframes for the developers who are creating this directory.
+            <br></br>
+            <br></br>This was a personal project as a favour for the start up as
+            well as gaining real-life experience for myself with a live project.
           </p>
         </div>
       </div>
 
       <div className="serveasy-text-one-container">
-        <p className="serveasy-copy">
-          This start up approached me and asked me to create some wireframes for
-          the developers who are creating this directory.<br></br>
-          <br></br>This was a personal project as a favour for the start up as
-          well as gaining real-life experience for myself with a live project.{" "}
-        </p>
-
         <h1 className="serveasy-header-title">The Problem.</h1>
 
         <p className="serveasy-copy">
@@ -73,22 +71,37 @@ function Serveasy() {
       </div>
 
       <div className="serveasy-wireframes-container">
-        <h1 className="serveasy-header-title">Home Page - Low-Fidelity Wireframe.</h1>
+        <h1 className="serveasy-header-title">
+          Home Page - Low-Fidelity Wireframe.
+        </h1>
 
         <div className="serveasy-homepage-wireframes">
-          <img src="/assets/serveasy-homepage.png" className="homepage-wireframes"></img>
+          <img
+            src="/assets/serveasy-homepage.png"
+            className="homepage-wireframes"
+          ></img>
         </div>
 
         <div className="serveasy-business-service-page">
-          <h1 className="serveasy-header-title">Business Service Page - Low-Fidelity Wireframe.</h1>
-          <img src="/assets/business-service-page.png" className="business-service-page-wireframes"></img>
+          <h1 className="serveasy-header-title">
+            Business Service Page - Low-Fidelity Wireframe.
+          </h1>
+          <img
+            src="/assets/business-service-page.png"
+            className="business-service-page-wireframes"
+          ></img>
         </div>
       </div>
 
       <div className="serveasy-service-page">
-          <h1 className="serveasy-header-title">Business Service Page - Low-Fidelity Wireframe.</h1>
-          <img src="/assets/service-page.png" className="service-page-wireframes"></img>
-        </div>
+        <h1 className="serveasy-header-title">
+          Business Service Page - Low-Fidelity Wireframe.
+        </h1>
+        <img
+          src="/assets/service-page.png"
+          className="service-page-wireframes"
+        ></img>
+      </div>
       <Footer />
     </BodyContainer>
   );
