@@ -11,7 +11,9 @@ import socCard from "../../../public/assets/soc-preview-card.png";
 function Projects() {
   return (
     <div className="projects-container">
-      <h1 className="project-text">my projects.</h1>
+      <a id="projects">
+        <h1 className="project-text">my projects.</h1>
+      </a>
       <div className="project-one-container">
         <ProjectPreview image={socCard} />
         <ProjectCTA
