@@ -4,9 +4,9 @@ import ProjectPreview from "../projectPreview/projectPreview";
 import ProjectCTA from "../projectCTA/projectCTA";
 
 import f1Preview from "../../../public/assets/f1-preview.png";
-import serveasyWireframes from "../../../public/assets/serveasy-wireframes.png";
+import serveasyWireframes from "../../../public/assets/serveasy-card.png";
 import dialledCard from "../../../public/assets/dialled-card.png";
-import socCard from "../../../public/assets/soc-card.png";
+import socCard from "../../../public/assets/soc-preview-card.png";
 
 function Projects() {
   return (
