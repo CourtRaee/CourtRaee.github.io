@@ -7,7 +7,101 @@
     color: white;
 }
 
-.page-structure {
-     padding-top: 50px;
-     padding-bottom: 50px;
+.serveasy-intro {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.serveasy-screenshot {
+    width: 500px;
+    height: 350px;
+    justify-content: center;
+}
+
+.serveasy-intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 65%;
+    padding-left: 50px;
+}
+
+.serveasy-header {
+    color: white;
+    font-size: 70px;
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 10px;
+}
+
+.serveasy-header-copy {
+    text-align: start;
+    font-size: 20px;
+    color: white;
+    padding-top: 35px;
+}
+
+.serveasy-copy {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-top: 35px;
+}
+
+.serveasy-header-title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 35px;
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 5px;
+}
+
+.serveasy-homepage-wireframes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.homepage-wireframes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 650px
+}
+
+.serveasy-business-service-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.business-service-page-wireframes { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 650px;
+}
+
+.serveasy-service-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+} 
+
+.service-page-wireframes { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 650px;
 }
