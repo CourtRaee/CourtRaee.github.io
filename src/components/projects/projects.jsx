@@ -3,7 +3,7 @@ import "./projects.css";
 import ProjectPreview from "../projectPreview/projectPreview";
 import ProjectCTA from "../projectCTA/projectCTA";
 
-import f1Preview from "../../../public/assets/f1-preview.png";
+// import f1Preview from "../../../public/assets/f1-preview.png";
 import serveasyWireframes from "../../../public/assets/serveasy-card.png";
 import dialledCard from "../../../public/assets/dialled-card.png";
 import socCard from "../../../public/assets/soc-preview-card.png";
@@ -16,7 +16,7 @@ function Projects() {
         <ProjectPreview image={socCard} />
         <ProjectCTA
           text={"soc final project."}
-          buttonText="i'm curious ➡️"
+          buttonText="i'm curious"
           link="/soc"
         />
       </div>
@@ -24,7 +24,7 @@ function Projects() {
       <div className="project-two-container">
         <ProjectCTA
           text={"dialled wireframes."}
-          buttonText="⬅️ let's see"
+          buttonText="⬅let's see"
           link="/dialled"
         />
         <ProjectPreview image={dialledCard} />
@@ -34,7 +34,7 @@ function Projects() {
         <ProjectPreview image={serveasyWireframes} />
         <ProjectCTA
           text={"serveasy wireframes."}
-          buttonText="take me there ➡️"
+          buttonText="take me there"
           link="/serveasy"
         />
       </div>
