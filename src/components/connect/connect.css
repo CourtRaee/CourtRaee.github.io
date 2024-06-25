@@ -1,6 +1,9 @@
 .lets-connect {
   color: white;
   font-size: 60px;
+  text-decoration: underline;
+  text-decoration-color: #8E00FD;
+  text-decoration-thickness: 5px;
 }
 
 .social-button-container {
