@@ -11,6 +11,7 @@
   background-color: #8e00fd;
   color: white;
   border: none;
+  font-size: 17px;
 
   &:hover {
     cursor: pointer;
