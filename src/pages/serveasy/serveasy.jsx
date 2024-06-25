@@ -30,7 +30,7 @@ function Serveasy() {
       </div>
 
       <div className="serveasy-text-one-container">
-        <h1 className="serveasy-header-title">The Problem.</h1>
+        <h1 className="serveasy-header-title">The Problem</h1>
 
         <p className="serveasy-copy">
           The project required a clear way for users to easily navigate through
@@ -40,7 +40,7 @@ function Serveasy() {
           all-in-one hub to find any home services required.
         </p>
 
-        <h1 className="serveasy-header-title">Objective.</h1>
+        <h1 className="serveasy-header-title">Objective</h1>
 
         <p className="serveasy-copy">
           The designs I created were made with the user journey in mind. The
@@ -59,7 +59,7 @@ function Serveasy() {
           next to get their desired information.
         </p>
 
-        <h1 className="serveasy-header-title">Target Audience.</h1>
+        <h1 className="serveasy-header-title">Target Audience</h1>
 
         <p className="serveasy-copy">
           The target audience is adults with homes and vehicles, who currently
@@ -72,7 +72,7 @@ function Serveasy() {
 
       <div className="serveasy-wireframes-container">
         <h1 className="serveasy-header-title">
-          Home Page - Low-Fidelity Wireframe.
+          Home Page - Low-Fidelity Wireframe
         </h1>
 
         <div className="serveasy-homepage-wireframes">
@@ -84,7 +84,7 @@ function Serveasy() {
 
         <div className="serveasy-business-service-page">
           <h1 className="serveasy-header-title">
-            Business Service Page - Low-Fidelity Wireframe.
+            Business Service Page - Low-Fidelity Wireframe
           </h1>
           <img
             src="/assets/business-service-page.png"
@@ -95,7 +95,7 @@ function Serveasy() {
 
       <div className="serveasy-service-page">
         <h1 className="serveasy-header-title">
-          Business Service Page - Low-Fidelity Wireframe.
+          Services Page - Low-Fidelity Wireframe
         </h1>
         <img
           src="/assets/service-page.png"
