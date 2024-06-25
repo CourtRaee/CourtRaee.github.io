@@ -9,11 +9,17 @@
   height: 40px;
   border-radius: 10px;
   background-color: #8e00fd;
+  /* background-color: #8e00fd; */
   color: white;
   border: none;
   font-size: 17px;
+  box-shadow: 4px 4px 8px rgba(45, 44, 44, 0.772);
+  border: none;
+  overflow: hidden;
 
   &:hover {
     cursor: pointer;
+    color: #8e00fd;
+    background-color: white;
   }
 }
