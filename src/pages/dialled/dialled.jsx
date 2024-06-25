@@ -1,5 +1,6 @@
 import Projectsnavbar from "../../components/projects-navbar/projects-navbar";
 import BodyContainer from "../../components/bodyContainer/body-container";
+import Connect from "../../components/connect/connect";
 import Footer from "../../components/footer/footer";
 import "../dialled/dialled.css";
 
@@ -160,6 +161,12 @@ function Dialled() {
           src="/assets/Web App - My Profile.png"
         ></img>
       </div>
+
+      <div className="line-container">
+        <div className="line-divider"></div>
+      </div>
+
+      <Connect />
       <section className="footer">
         <Footer />
       </section>

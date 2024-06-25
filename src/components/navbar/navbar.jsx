@@ -8,7 +8,9 @@ function Navbar() {
         <a href="#projects">
           <button className="navbar-projects-button">projects.</button>
         </a>
-        <button className="navbar-contact-button">speak to me.</button>
+        <a href="#connect">
+          <button className="navbar-contact-button">speak to me.</button>
+        </a>
       </div>
     </section>
   );

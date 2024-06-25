@@ -1,6 +1,7 @@
 import "./serveasy.css";
 import Projectsnavbar from "../../components/projects-navbar/projects-navbar";
 import BodyContainer from "../../components/bodyContainer/body-container";
+import Connect from "../../components/connect/connect";
 import Footer from "../../components/footer/footer";
 
 function Serveasy() {
@@ -102,6 +103,12 @@ function Serveasy() {
           className="service-page-wireframes"
         ></img>
       </div>
+
+      <div className="line-container">
+        <div className="line-divider"></div>
+      </div>
+
+      <Connect />
       <Footer />
     </BodyContainer>
   );

@@ -8,7 +8,9 @@ import mail from "../../../public/assets/mail.png";
 function Connect() {
   return (
     <div className="connect-container">
-      <h1 className="lets-connect">let's connect.</h1>
+      <a id="connect">
+        <h1 className="lets-connect">let's connect.</h1>
+      </a>
 
       <div className="social-button-container">
         <a

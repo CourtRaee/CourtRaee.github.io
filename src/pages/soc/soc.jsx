@@ -1,5 +1,6 @@
 import Projectsnavbar from "../../components/projects-navbar/projects-navbar";
 import BodyContainer from "../../components/bodyContainer/body-container";
+import Connect from "../../components/connect/connect";
 import Footer from "../../components/footer/footer";
 import "../soc/soc.css";
 
@@ -277,6 +278,12 @@ function Soc() {
             <button className="product-button">Take me to the product😍</button>
           </a>
         </div>
+
+        <div className="line-container">
+          <div className="line-divider"></div>
+        </div>
+
+        <Connect />
       </div>
       <Footer />
     </BodyContainer>
