@@ -27,6 +27,7 @@
     text-decoration-color: #8E00FD;
     text-decoration-thickness: 2px;
     cursor: pointer;
+    font-size: 20px;
   }
   
   .navbar-contact-button {
@@ -44,4 +45,5 @@
     text-decoration-color: #8E00FD;
     text-decoration-thickness: 2px;
     cursor: pointer;
+    font-size: 20px;
   }
