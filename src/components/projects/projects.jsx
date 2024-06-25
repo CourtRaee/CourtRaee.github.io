@@ -26,7 +26,7 @@ function Projects() {
       <div className="project-two-container">
         <ProjectCTA
           text={"dialled wireframes."}
-          buttonText="⬅let's see"
+          buttonText="let's see"
           link="/dialled"
         />
         <ProjectPreview image={dialledCard} />
