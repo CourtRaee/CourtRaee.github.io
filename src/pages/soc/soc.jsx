@@ -1,4 +1,4 @@
-import Navbar from "../../components/navbar/navbar";
+import Projectsnavbar from "../../components/projects-navbar/projects-navbar";
 import BodyContainer from "../../components/bodyContainer/body-container";
 import Footer from "../../components/footer/footer";
 import "../soc/soc.css";
@@ -6,7 +6,7 @@ import "../soc/soc.css";
 function Soc() {
   return (
     <BodyContainer>
-      <Navbar />
+      <Projectsnavbar />
       <div className="container">
         <div className="soc-intro">
           <div className="soc-screenshot-container">

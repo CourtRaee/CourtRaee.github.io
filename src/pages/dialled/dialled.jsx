@@ -1,4 +1,4 @@
-import Navbar from "../../components/navbar/navbar";
+import Projectsnavbar from "../../components/projects-navbar/projects-navbar";
 import BodyContainer from "../../components/bodyContainer/body-container";
 import Footer from "../../components/footer/footer";
 import "../dialled/dialled.css";
@@ -6,7 +6,7 @@ import "../dialled/dialled.css";
 function Dialled() {
   return (
     <BodyContainer>
-      <Navbar />
+      <Projectsnavbar />
       <div className="dialled-intro">
         <div className="iphone-dialled-container">
           <img

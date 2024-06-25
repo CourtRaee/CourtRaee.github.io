@@ -1,12 +1,12 @@
 import "./serveasy.css";
-import Navbar from "../../components/navbar/navbar";
+import Projectsnavbar from "../../components/projects-navbar/projects-navbar";
 import BodyContainer from "../../components/bodyContainer/body-container";
 import Footer from "../../components/footer/footer";
 
 function Serveasy() {
   return (
     <BodyContainer>
-      <Navbar />
+      <Projectsnavbar />
       <div className="serveasy-intro">
         <div className="serveasy-intro-screenshot">
           <img
