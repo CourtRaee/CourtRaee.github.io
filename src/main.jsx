@@ -1,38 +1,72 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Home from "./pages/home/home.jsx";
-import { RouterProvider, createHashRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createHashRouter,
+  useLocation,
+} from "react-router-dom";
 import F1DriverResults from "./pages/f1/f1-driver-results";
 import Serveasy from "./pages/serveasy/serveasy";
 import Dialled from "./pages/dialled/dialled";
 import Soc from "./pages/soc/soc";
+import ScrollToTop from "../src/components/ScrollToTop";
 
 const router = createHashRouter([
   {
     path: "/",
-    element: <Home />,
+    element: (
+      <>
+        <ScrollToTop />
+        <Home />
+      </>
+    ),
   },
   {
     path: "/f1",
-    element: <F1DriverResults />,
+    element: (
+      <>
+        <ScrollToTop />
+        <F1DriverResults />
+      </>
+    ),
   },
   {
     path: "/serveasy",
-    element: <Serveasy />,
+    element: (
+      <>
+        <ScrollToTop />
+        <Serveasy />
+      </>
+    ),
   },
   {
     path: "/dialled",
-    element: <Dialled />,
+    element: (
+      <>
+        <ScrollToTop />
+        <Dialled />
+      </>
+    ),
   },
   {
     path: "/soc",
-    element: <Soc />,
+    element: (
+      <>
+        <ScrollToTop />
+        <Soc />
+      </>
+    ),
   },
 ]);
 
+function App() {
+  return <RouterProvider router={router} />;
+}
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );
