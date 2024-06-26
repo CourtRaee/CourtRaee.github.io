@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Home from "./pages/home/home.jsx";
-import { RouterProvider, createHashRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter, useLocation } from "react-router-dom";
 import F1DriverResults from "./pages/f1/f1-driver-results";
 import Serveasy from "./pages/serveasy/serveasy";
 import Dialled from "./pages/dialled/dialled";
@@ -31,8 +31,18 @@ const router = createHashRouter([
   },
 ]);
 
+function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return <RouterProvider router={router} />;
+}
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );
