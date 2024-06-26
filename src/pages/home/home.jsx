@@ -6,6 +6,7 @@ import Projects from "../../components/projects/projects";
 import Connect from "../../components/connect/connect";
 import Footer from "../../components/footer/footer";
 import BodyContainer from "../../components/bodyContainer/body-container";
+import Testimonial from "../../components/testimonial/testimonial";
 
 function Home() {
   return (
@@ -22,6 +23,10 @@ function Home() {
 
       <section className="projects">
         <Projects />
+      </section>
+
+      <section className="testimonial">
+        <Testimonial />
       </section>
 
       <section className="connect">

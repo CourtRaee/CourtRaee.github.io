@@ -1,0 +1,48 @@
+.testimonial-header {
+    font-size: 60px;
+    display: flex;
+    /* margin-left: 100px; */
+    padding-left: 75px;
+    padding-bottom: 50px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 5px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    height: 120px
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    height: 120px
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.quote-copy {
+    font-size: larger;
+    color: white;
+}
+
+.quote-name {
+    color: white;
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-color: #8E00FD;
+    text-decoration-thickness: 3px;
+}
