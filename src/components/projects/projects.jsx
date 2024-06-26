@@ -14,7 +14,7 @@ function Projects() {
       <a id="projects">
         <h1 className="project-text">my projects.</h1>
       </a>
-      <div className="project-one-container">
+      <div className="project-container">
         <ProjectPreview image={socCard} />
         <ProjectCTA
           text={"soc final project."}
@@ -23,7 +23,7 @@ function Projects() {
         />
       </div>
 
-      <div className="project-two-container">
+      <div className="project-container">
         <ProjectCTA
           text={"dialled wireframes."}
           buttonText="let's see"
@@ -32,7 +32,7 @@ function Projects() {
         <ProjectPreview image={dialledCard} />
       </div>
 
-      <div className="project-three-container">
+      <div className="project-container">
         <ProjectPreview image={serveasyWireframes} />
         <ProjectCTA
           text={"serveasy wireframes."}
@@ -40,15 +40,6 @@ function Projects() {
           link="/serveasy"
         />
       </div>
-
-      {/* <div className="project-four-container">
-        <ProjectCTA
-          text={"f1 driver results."}
-          buttonText="⬅️ show me"
-          link="/f1"
-        />
-        <ProjectPreview image={serveasyWireframes} />
-      </div> */}
     </div>
   );
 }

@@ -1,29 +1,9 @@
-.project-one-container {
+.project-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 100px;
 }
-
-.project-two-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 100px;
-}
-
-.project-three-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 100px;
-  }
-
-.project-four-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
 
 .project-text {
   font-size: 60px;
@@ -35,4 +15,18 @@
   text-decoration: underline;
   text-decoration-color: #8E00FD;
   text-decoration-thickness: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  .project-container {
+    flex-direction: column;
+
+  }
+  .project-container:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+
+  .project-text {
+    font-size: 40px;
+  }
 }
