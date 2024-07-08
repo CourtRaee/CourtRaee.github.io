@@ -240,3 +240,146 @@
 .testimonial-section {
   padding-top: 60px;
 }
+
+
+@media only screen and (max-width: 700px) {
+  .soc-intro {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .soc-screenshot-container {
+    padding-right: 0;
+  }
+
+  .soc-intro-container {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .soc-header {
+    font-size: 40px;
+  }
+
+  .soc-header-copy {
+    font-size: 16px;
+  }
+
+  .soc-problem-container {
+    padding-top: 50px;
+  }
+
+  .header {
+    font-size: 30px;
+  }
+
+  .copy {
+    font-size: 14px;
+  }
+
+  .soc-trello-container {
+    padding-top: 50px;
+  }
+
+  .trello-image {
+    width: 100%;
+  }
+
+  .soc-demo-container {
+    padding-top: 50px;
+  }
+
+  .demo-video {
+    width: 100%;
+  }
+
+  .ux-container {
+    padding-top: 50px;
+  }
+
+  .wireframes {
+    width: 100%;
+  }
+
+  .logos-container {
+    flex-direction: column;
+  }
+
+  .logos {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tech-stack-one {
+    padding-top: 50px;
+  }
+
+  .logos-single {
+    width: 25px;
+    height: 25px;
+  }
+
+  .tech-stack-copy {
+    font-size: 14px;
+  }
+
+  .team-container {
+    padding-top: 50px;
+  }
+
+  .manifesto {
+    width: 100%;
+  }
+
+  .next-steps-container {
+    padding-top: 50px;
+  }
+
+  .button-container {
+    padding-top: 50px;
+  }
+
+  .product-button {
+    font-size: 16px;
+  }
+
+  .line-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .line-divider {
+    width: 100%;
+  }
+
+  .left-container {
+    height: 100px;
+  }
+
+  .right-container {
+    height: 100px;
+  }
+
+  .quote {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .quote-copy {
+    font-size: medium;
+  }
+
+  .quote-name {
+    font-size: medium;
+  }
+
+  .testimonial-section {
+    padding-top: 50px;
+  }
+
+  .page-structure {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

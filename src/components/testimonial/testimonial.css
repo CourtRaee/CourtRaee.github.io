@@ -48,5 +48,27 @@
 @media only screen and (max-width: 700px) {
     .testimonial-header {
         font-size: 40px;
+        padding-left: 20px;
     }
-}
+
+    .testimonial-container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .left-container,
+    .right-container {
+        width: 90%;
+    }
+
+    .quote {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .quote-copy,
+    .quote-name {
+        font-size: medium;
+    }
+ }

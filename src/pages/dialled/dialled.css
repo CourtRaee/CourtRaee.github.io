@@ -5,7 +5,7 @@
 }
 
 .iphone-dialled-container {
-  /* width: 30%; */
+  
   height: 300px;
   display: flex;
   justify-content: flex-start;
@@ -89,4 +89,52 @@
 .footer {
   display: flex;
   align-items: flex-end;
+}
+
+
+@media (max-width: 768px) {
+  .dialled-intro {
+    height: auto; 
+    flex-direction: column; 
+  }
+
+  .iphone-dialled-container,
+  .dialled-intro-container {
+    width: 100%; 
+    justify-content: center; 
+  }
+
+  .iphone-dialled {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .dialled-header {
+    font-size: 40px; 
+    text-decoration-thickness: 5px; 
+  }
+
+  .dialled-header-copy,
+  .dialled-desc-copy,
+  .dialled-desc-headers {
+    font-size: 20px; 
+    padding-top: 20px; 
+  }
+
+  .dialled-mobile-app-images,
+  .dialled-website-images {
+    width: 80%; 
+    height: auto; 
+    margin: 0 auto; 
+    padding-top: 15px; 
+  }
+  .line-container {
+    flex-direction: column; 
+    padding: 35px 0; 
+  }
+
+  .footer {
+    justify-content: center; 
+    padding: 20px 0; 
+  }
 }

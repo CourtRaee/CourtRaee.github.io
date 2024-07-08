@@ -118,3 +118,52 @@
   height: 2px;
   background-color: rgba(255, 255, 255, 0.466);
 }
+
+
+
+@media only screen and (max-width: 768px) {
+.serveasy-intro, .serveasy-screenshot, .homepage-wireframes, .business-service-page-wireframes, .service-page-wireframes {
+  width: 100%; 
+  height: auto; 
+}
+
+.serveasy-screenshot {
+  justify-content: center;
+  max-width: 300px; 
+  height: auto; 
+}
+
+.serveasy-intro-container, .serveasy-homepage-wireframes, .serveasy-business-service-page, .serveasy-service-page {
+  padding-left: 20px; 
+  padding-right: 20px; 
+  width: auto; 
+}
+
+.homepage-wireframes, .business-service-page-wireframes, .service-page-wireframes {
+  flex-direction: column; 
+}
+
+.line-container {
+  padding-top: 35px; 
+  padding-bottom: 35px;
+}
+
+.line-divider {
+  width: 90%; 
+}
+
+}
+
+@media (max-width: 480px) {
+.text, .serveasy-header {
+  font-size: 40px; 
+}
+
+.serveasy-header-copy, .serveasy-copy, .serveasy-header-title {
+  font-size: 20px; 
+}
+
+.serveasy-screenshot {
+  max-width: 250px; 
+}
+}
