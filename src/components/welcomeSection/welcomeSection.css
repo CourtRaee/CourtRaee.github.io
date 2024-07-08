@@ -25,4 +25,9 @@ p.welcome-text {
     justify-content: center;
     margin-bottom: 8px;
   }
+
+  p.welcome-text {
+    font-size: 20px;
+    text-align: center;
+  } 
 }
